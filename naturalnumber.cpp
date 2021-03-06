@@ -6,16 +6,18 @@ using namespace std;
 
 int main (){
    
-  int i;
+  int i,n;
+   sum=0;
   
-  cout << " Find the first 10 natural numbers:\n";
-  cout << " The first 10 natural numbers are :\n";
-  
-  for ( i = 1 ; i <= 10 ; i++ ) {
+  cout << " Enter the number you want to find the natural number of: " << endl;
+  cin >> n; 
+ 
+   for ( i = 1 ; i <= n ; i++ ) {
     
     cout << " The 10 natural numbers are " << i << "" << endl;
-     
+    sum = sum + i;  
   }
     
-    
+      cout << " The sum of the " << n << "number is " << sum << endl;
+     
 }
