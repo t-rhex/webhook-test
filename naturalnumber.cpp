@@ -1,4 +1,4 @@
-#This is just a comment
+//This is just a comment
 
 #include <iostream>
 
@@ -11,9 +11,11 @@ int main (){
   cout << " Find the first 10 natural numbers:\n";
   cout << " The first 10 natural numbers are :\n";
   
-  for ( i = 1 ; i <= 10 : i++ ) {
+  for ( i = 1 ; i <= 10 ; i++ ) {
     
     cout << " The 10 natural numbers are " << i << "" << endl;
+     
+  }
     
     
 }
